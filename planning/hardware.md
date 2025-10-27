@@ -1,0 +1,18 @@
+# Hardware
+----
+
+## Requirements
+- Processor
+- GPS module
+- Physical compass
+- LED ring to surround compass
+## Arduino
+
+| Name                                                      | Link                                                                                                                                                                                                                                                                                    | Cost   | Notes                                                                                                                                                                                                                                                    |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Arduino MKR GPS Shield                                    | [Arduino store](https://store.arduino.cc/products/arduino-mkr-gps-shield?queryID=undefined)                                                                                                                                                                                             | €43.70 | Seems to be the only GPS option for Arduino, at least from their official store.                                                                                                                                                                         |
+| Arduino Nano R4                                           | [Arduino store](https://store.arduino.cc/collections/nano-family/products/nano-r4)                                                                                                                                                                                                      | €13.40 | Cheapest on the website. Not sure how this compares processing-wise. Maybe worth getting one with higher processing power and seeing what the difference is?                                                                                             |
+| Grove - RGB LED Ring (16x WS2813 Mini)                    | [PiHut](https://thepihut.com/products/grove-rgb-led-ring-16x-ws2813-mini?variant=42210265235651&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorCF6MMuhxtQbSkDOIYbaMiXgNfKab2hQuilvRZo5yagBfWMWy6zq4) | £9.90  | Has its own [wiki](https://wiki.seeedstudio.com/Grove-LED_ring/). 20 LED version also available, but 16 is probably good enough for compass coords. Think we might also need a [seeduino board](https://www.seeedstudio.com/Seeeduino-V4-2-p-2517.html)? |
+| NeoPixel Ring - 16 x 5050 RGB LED with Integrated Drivers | [PiHut](https://thepihut.com/products/adafruit-neopixel-ring-16-x-5050-rgb-led-with-integrated-drivers?srsltid=AfmBOoq48LLnFxJdS4NU2XIwWeW001WcmfHex0veW6V6P997Kvvu3I3Q)                                                                                                                | £9.60  | Comes with its own [C++ library](https://github.com/adafruit/Adafruit_NeoPixel) :).                                                                                                                                                                      |
+
+
