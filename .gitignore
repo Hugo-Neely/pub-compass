@@ -205,6 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# custom
 *.DS_Store
 .obsidian
 data
+planning/hardware docs/Grove - GPS (Air530)_v1.0_附件资料
